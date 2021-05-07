@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JS</title>
+    <script src="./js/present.js" defer></script>
+</head>
+
+<body>
+
+    <section id="closed">
+        <p>Click to Open Present</p>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1083533/gift-icon.png" alt="">
+    </section>
+
+    <section id="opened" class="hidden">
+        <p>Hooraay!!</p>
+        <img src="https://media.giphy.com/media/27ppQUOxe7KlG/giphy.gif" alt="">
+    </section>
+
+    <style>
+        img {
+            cursor: pointer;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 600;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</body>
+
+</html>

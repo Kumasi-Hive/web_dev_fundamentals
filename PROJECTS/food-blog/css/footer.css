@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Gudea:ital,wght@0,400;0,700;1,400&family=Hind+Guntur:wght@300;400;500&family=Merienda:wght@400;700&family=Pacifico&display=swap");
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+  font-family: "Hind Guntur", sans-serif;
+}
